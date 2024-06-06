@@ -30,7 +30,7 @@ require('lazy').setup({
   -- NOTE:  All the included plugins with kickstart
   require 'kickstart.plugins.autopairs',
   require 'kickstart/plugins/cmp',
-  require 'kickstart/plugins/conform',
+  -- require 'kickstart/plugins/conform',
   require 'kickstart.plugins.debug',
   require 'kickstart/plugins/gitsigns',
   require 'kickstart.plugins.indent_line',
@@ -45,6 +45,8 @@ require('lazy').setup({
 
   -- NOTE: All custom plugins I've added
   require 'custom/plugins/neo-tree',
+  require 'custom.plugins.nvim-r',
+  require 'custom.plugins.none-ls'
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
