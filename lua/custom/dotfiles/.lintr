@@ -1,0 +1,23 @@
+linters: linters_with_defaults(
+   assignment_linter(), # Ensures proper assignment operators
+   commas_linter(), # Checks for spaces after commas
+   commented_code_linter(), # Flags commented-out code
+   cyclocomp_linter(complexity_limit = 25), # Limits cyclomatic complexity to 25
+   equals_na_linter(), # Ensures proper NA checks
+   function_left_parentheses_linter(), # Ensures no space between function name and parentheses
+   infix_spaces_linter(), # Checks for spaces around infix operators
+   line_length_linter(length = 80), # Limits line length to 80 characters
+   whitespace_linter(), # Disallows tabs
+   object_length_linter(length = 30), # Limits object name length to 30 characters
+   object_name_linter(styles = "camelCase"), # Enforces camelCase for object names
+   object_usage_linter(), # Ensures objects are used after being defined
+   brace_linter(allow_single_line = TRUE), # Checks curly brace placement
+   paren_body_linter(), # Ensures no space between parentheses and brace
+   quotes_linter(), # Enforces single quotes for strings
+   spaces_inside_linter(), # Checks for spaces inside square brackets
+   spaces_left_parentheses_linter(), # Checks for spaces after left parentheses
+   trailing_blank_lines_linter(), # Disallows trailing blank lines
+   trailing_whitespace_linter(), # Disallows trailing whitespace
+   yoda_test_linter()) #test boolean equations using the yoda method
+encoding: "UTF-8"
+exclusions: list("renv", "packrat") # see ?lintr::exclude
