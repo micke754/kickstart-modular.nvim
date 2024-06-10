@@ -114,6 +114,12 @@ return {
           { name = 'buffer' },
         },
       })
+      cmp.setup.filetype({ 'r' }, {
+        sources = {
+          { name = 'cmp_r' },
+          { name = 'buffer' },
+        },
+      })
     end,
   },
 }
