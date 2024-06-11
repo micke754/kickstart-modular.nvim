@@ -11,6 +11,7 @@ return {
             -- of files supported by R.nvim. This is an
             -- opportunity to create mappings local to buffers.
             vim.api.nvim_buf_set_keymap(0, 'n', '<Enter>', '<Plug>RDSendLine', {})
+            vim.api.nvim_buf_set_keymap(0, 'i', '<C-e>', '<Esc><Plug>RDSendLine', {})
             vim.api.nvim_buf_set_keymap(0, 'v', '<Enter>', '<Plug>RSendSelection', {})
           end,
         },

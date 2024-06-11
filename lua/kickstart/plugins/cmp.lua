@@ -112,12 +112,14 @@ return {
         sources = {
           { name = 'vim-dadbod-completion' },
           { name = 'buffer' },
+          { name = 'path' },
         },
       })
       cmp.setup.filetype({ 'r' }, {
         sources = {
           { name = 'cmp_r' },
           { name = 'buffer' },
+          { name = 'path' },
         },
       })
     end,
