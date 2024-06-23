@@ -13,6 +13,8 @@ return {
             vim.api.nvim_buf_set_keymap(0, 'n', '<Enter>', '<Plug>RDSendLine', {})
             vim.api.nvim_buf_set_keymap(0, 'i', '<C-e>', '<Esc><Plug>RDSendLine', {})
             vim.api.nvim_buf_set_keymap(0, 'v', '<Enter>', '<Plug>RSendSelection', {})
+            vim.api.nvim_buf_set_keymap(0, 'v', '<Leader>fr', ':RFormat<Esc>', {})
+            vim.api.nvim_buf_set_keymap(0, 'n', '<Leader>fr', ':RFormat<Esc>', {})
           end,
         },
         min_editor_width = 72,
@@ -44,5 +46,5 @@ return {
       }
     end,
   },
-  {'R-nvim/cmp-r'},
+  { 'R-nvim/cmp-r' },
 }
