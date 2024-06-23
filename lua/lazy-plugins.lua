@@ -30,7 +30,7 @@ require('lazy').setup({
   -- NOTE:  All the included plugins with kickstart
   require 'kickstart.plugins.autopairs',
   require 'kickstart/plugins/cmp',
-  -- require 'kickstart/plugins/conform',
+  require 'kickstart/plugins/conform',
   require 'kickstart.plugins.debug',
   require 'kickstart/plugins/gitsigns',
   require 'kickstart.plugins.indent_line',
@@ -46,7 +46,7 @@ require('lazy').setup({
   -- NOTE: All custom plugins I've added
   require 'custom/plugins/neo-tree',
   require 'custom.plugins.nvim-r',
-  require 'custom.plugins.none-ls',
+  -- require 'custom.plugins.none-ls',
   require 'custom.plugins.dadbod',
   require 'custom.plugins.noice',
   require 'custom.plugins.flash'
