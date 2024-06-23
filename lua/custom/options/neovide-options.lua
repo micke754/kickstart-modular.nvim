@@ -1,5 +1,5 @@
 -- Settings to help with making Neovide user userfriendly
-vim.g.gui_font_default_size = 12
+vim.g.gui_font_default_size = 10
 vim.g.gui_font_size = vim.g.gui_font_default_size
 vim.g.gui_font_face = 'FiraCode Nerd Font'
 
