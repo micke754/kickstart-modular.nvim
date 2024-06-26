@@ -5,6 +5,10 @@ return {
       -- Create a table with the options to be passed to setup()
       local opts = {
         R_args = { '--quiet', '--no-save' },
+        R_app = 'radian',
+        R_cmd = 'R',
+        hl_term = false,
+        bracketed_paste = true,
         hook = {
           on_filetype = function()
             -- This function will be called at the FileType event
