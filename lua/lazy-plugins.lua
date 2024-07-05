@@ -39,7 +39,7 @@ require('lazy').setup({
   require 'kickstart/plugins/mini',
   require 'kickstart/plugins/telescope',
   require 'kickstart/plugins/todo-comments',
-  require 'kickstart/plugins/tokyonight',
+  -- require 'kickstart/plugins/tokyonight',
   require 'kickstart/plugins/treesitter',
   require 'kickstart/plugins/which-key',
 
@@ -49,7 +49,8 @@ require('lazy').setup({
   -- require 'custom.plugins.none-ls',
   require 'custom.plugins.dadbod',
   require 'custom.plugins.noice',
-  require 'custom.plugins.flash'
+  require 'custom.plugins.flash',
+  require 'custom.themes.sonokai',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
