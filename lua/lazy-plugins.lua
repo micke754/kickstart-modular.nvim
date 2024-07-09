@@ -46,11 +46,10 @@ require('lazy').setup({
   -- NOTE: All custom plugins I've added
   require 'custom/plugins/neo-tree',
   require 'custom.plugins.nvim-r',
-  -- require 'custom.plugins.none-ls',
   require 'custom.plugins.dadbod',
   require 'custom.plugins.noice',
   require 'custom.plugins.flash',
-  require 'custom.themes.kanagawa',
+  -- require 'custom.themes.catppuccin',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
